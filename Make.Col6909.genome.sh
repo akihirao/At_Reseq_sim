@@ -1,6 +1,6 @@
 #!/bin/bash -i
 #Make.Col6909.genome.sh
-#making genome fasta of Columbia ecotype (Col) deposited in 1001 genome project
+#making genome fasta of Columbia ecotype (Col) deposited in the 1001 genomes
 #by HIRAO Akira		
 
 set -exuo pipefail
