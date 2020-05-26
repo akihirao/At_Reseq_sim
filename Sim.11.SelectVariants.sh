@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.09.SelectVariants.sh
+#Sim.11.SelectVariants.sh
 #by HIRAO Akira
 
 set -exuo pipefail

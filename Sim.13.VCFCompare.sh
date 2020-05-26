@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.11.VCFCompare.sh
+#Sim.13.VCFCompare.sh
 #by HIRAO Akira
 
 

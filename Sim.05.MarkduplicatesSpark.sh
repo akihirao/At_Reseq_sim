@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.03.MarkduplicatesSpark.sh
+#Sim.05.MarkduplicatesSpark.sh
 #by HIRAO Akira 
 
 

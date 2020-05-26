@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.04.BaseRecalibrator.sh
+#Sim.06.BaseRecalibrator.sh
 #by HIRAO Akira
 
 set -exuo pipefail

@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.00.Make.mother.TAIR10.sh
+#Sim.02.Make.mother.reads.sh
 #by HIRAO Akira
 
 set -exuo pipefail
