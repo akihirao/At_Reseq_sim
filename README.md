@@ -1,7 +1,8 @@
-# Simulation of DNA mutation events in Arabidopsis thaliana
+# Simulation of DNA mutation events in <i>Arabidopsis thaliana</i>
 Bioinformatics pipeline for muntant simulation and validation of variant calling workflow
  
- 
+
+
 # Requirement
 
 * simuG: a general-purpose genome simulator (https://github.com/yjx1217/simuG)
@@ -16,6 +17,7 @@ Bioinformatics pipeline for muntant simulation and validation of variant calling
 The versions of each tools used are described in a series of shell script.
 
 
+
 # Flowchart
  
 Install Pyxel with pip command.
@@ -25,8 +27,9 @@ pip install pyxel
 ```
 
 
+
 # Usage
- 
+Change paths in the shell scripts according to your environemt please. 
 Run a series of the shell scripts in the order listes :
  
 ```bash
@@ -35,6 +38,7 @@ Sim.02.Make.mother.reads.sh
 ...
 Sim.13.VCFCompare.sh
 ```
+
 
 
 # Note
