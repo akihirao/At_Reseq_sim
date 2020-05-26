@@ -29,12 +29,12 @@ pip install pyxel
 
 
 # Usage
-Change paths in the shell scripts according to your environemt please. 
-Run a series of the shell scripts in the order listes :
+Run a series of the shell scripts in the order listes after changing paths according to your environemt:
  
 ```bash
 Sim.01.Col6909.genome.sh
 Sim.02.Make.mother.reads.sh
+Sim.03.Make.mutants.reads.sh
 ...
 Sim.13.VCFCompare.sh
 ```
