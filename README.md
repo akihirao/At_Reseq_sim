@@ -12,7 +12,9 @@ Bioinformatics pipeline for muntant simulation and validation of variant calling
 * gatk: Genome Analysis Toolkit (https://gatk.broadinstitute.org/)
 * BioAlcidaeJdk: java-based version of awk for bioinformatics (http://lindenb.github.io/jvarkit/BioAlcidaeJdk.html)
 
+
 The versions of each tools used are described in a series of shell script.
+
 
 # Flowchart
  
@@ -33,7 +35,8 @@ Sim.02.Make.mother.reads.sh
 ...
 Sim.13.VCFCompare.sh
 ```
- 
+
+
 # Note
  
 Environments under CentOS ver 7.5.1804 is tested.
