@@ -1,5 +1,5 @@
-# AT_Reseq_sim
-Bioinformatics pipeline for DNA muntation simulation and validation of variant calling workflow in resequences of <i>Arabidopsis thaliana</i>.
+# DNA muntant simulation for validating variant calloing workflow
+Bioinformatics pipeline for muntant simulation and validation of variant calling workflow in resequences of <i>Arabidopsis thaliana</i>.
  
  
 # Requirement
@@ -24,13 +24,13 @@ pip install pyxel
 
 # Usage
  
-Please create python code named "demo.py".
-And copy &amp; paste [Day4 tutorial code](https://cpp-learning.com/pyxel_physical_sim4/).
- 
-Run "demo.py"
+Run a series of the shell scripts in the order listes :
  
 ```bash
-python demo.py
+Sim.01.Col6909.genome.sh
+Sim.02.Make.mother.reads.sh
+...
+Sim.13.VCFCompare.sh
 ```
  
 # Note
