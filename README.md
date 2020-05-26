@@ -2,7 +2,7 @@
 Bioinformatics pipeline for muntant simulation and validation of variant calling workflow in resequences of <i>Arabidopsis thaliana</i>
  
 
-## Arabidopsis thaliana genomic resources
+## <i>Arabidopsis thaliana</i> genomic resources
 TAIR10 genomic sequences were downloaded from the TAIR FTP site. 
 
 
