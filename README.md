@@ -1,5 +1,5 @@
 # Simulation of DNA mutation events in <i>Arabidopsis thaliana</i>
-Bioinformatics pipeline for muntant simulation and validation of variant calling workflow
+Bioinformatics pipeline for muntant simulation and validation of variant calling workflow in resequences of <i>Arabidopsis thaliana</i>
  
 
 
