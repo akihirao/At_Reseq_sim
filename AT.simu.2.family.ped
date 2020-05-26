@@ -1,0 +1,5 @@
+#family_id	individual_id	paternal_id	maternal_id	sex	phenotype
+simu_2	mother_2	0	0	-9	-9
+simu_2	simu_2_1	mother_2	mother_2	-9	-9
+simu_2	simu_2_2	mother_2	mother_2	-9	-9
+simu_2	simu_2_3	mother_2	mother_2	-9	-9

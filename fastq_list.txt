@@ -1,0 +1,12 @@
+mother_1	mother_1.TAIR10_R1_001.fastq.gz	mother_1.TAIR10_R2_001.fastq.gz
+mother_2	mother_2.TAIR10_R1_001.fastq.gz	mother_2.TAIR10_R2_001.fastq.gz
+mother_3	mother_3.TAIR10_R1_001.fastq.gz	mother_3.TAIR10_R2_001.fastq.gz
+simu_1_1	simu_1_1.TAIR10_R1_001.fastq.gz	simu_1_1.TAIR10_R2_001.fastq.gz
+simu_1_2	simu_1_2.TAIR10_R1_001.fastq.gz	simu_1_2.TAIR10_R2_001.fastq.gz
+simu_1_3	simu_1_3.TAIR10_R1_001.fastq.gz	simu_1_3.TAIR10_R2_001.fastq.gz
+simu_2_1	simu_2_1.TAIR10_R1_001.fastq.gz	simu_2_1.TAIR10_R2_001.fastq.gz
+simu_2_2	simu_2_2.TAIR10_R1_001.fastq.gz	simu_2_2.TAIR10_R2_001.fastq.gz
+simu_2_3	simu_2_3.TAIR10_R1_001.fastq.gz	simu_2_3.TAIR10_R2_001.fastq.gz
+simu_3_1	simu_3_1.TAIR10_R1_001.fastq.gz	simu_3_1.TAIR10_R2_001.fastq.gz
+simu_3_2	simu_3_2.TAIR10_R1_001.fastq.gz	simu_3_2.TAIR10_R2_001.fastq.gz
+simu_3_3	simu_3_3.TAIR10_R1_001.fastq.gz	simu_3_3.TAIR10_R2_001.fastq.gz
