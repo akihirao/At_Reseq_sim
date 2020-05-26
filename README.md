@@ -2,6 +2,9 @@
 Bioinformatics pipeline for muntant simulation and validation of variant calling workflow in resequences of <i>Arabidopsis thaliana</i>
  
 
+# Arabidopsis thaliana genomic resources
+TAIR10 genomic sequences were downloaded from the TAIR FTP site. 
+
 
 # Requirement
 
@@ -14,7 +17,7 @@ Bioinformatics pipeline for muntant simulation and validation of variant calling
 * BioAlcidaeJdk: java-based version of awk for bioinformatics (http://lindenb.github.io/jvarkit/BioAlcidaeJdk.html)
 
 
-The environments under CentOS 7.5 is tested. The versions of tools used are documented in a series of shell scripts.
+The environments under CentOS 7.5 are tested. The versions of tools used are documented in a series of shell scripts.
 
 
 
@@ -43,4 +46,4 @@ Sim.13.VCFCompare.sh
 
 # Note
  
-Environments under CentOS ver 7.5.1804 is tested.
+
