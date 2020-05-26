@@ -32,5 +32,4 @@ bgzip -f -c intersection_6909_chr_edited.vcf > intersection_6909_chr_edited.vcf.
 tabix -f -p vcf intersection_6909_chr_edited.vcf.gz
 
 
-
 cd $SCRIPT_DIR
