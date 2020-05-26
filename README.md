@@ -14,7 +14,7 @@ Bioinformatics pipeline for muntant simulation and validation of variant calling
 * BioAlcidaeJdk: java-based version of awk for bioinformatics (http://lindenb.github.io/jvarkit/BioAlcidaeJdk.html)
 
 
-The versions of each tools used are described in a series of shell script.
+The versions of tools used are documented in a series of shell scripts.
 
 
 
