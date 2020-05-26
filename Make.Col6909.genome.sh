@@ -1,5 +1,6 @@
 #!/bin/bash -i
 #Make.Col6909.genome.sh
+#making genome fasta of Columbia ecotype (Col) deposited in 1001 genome project
 #by HIRAO Akira		
 
 set -exuo pipefail
@@ -15,7 +16,6 @@ reference_cp=TAIR10_cp
 
 cd $reference_folder
 
-#Making genome fasta of Columbia based on 1001 genome project
 perl /usr/local/simuG/simuG.pl \
 -refseq $reference_folder/$reference_nDNA.fa \
 -snp_vcf $reference_folder/intersection_6909_chr_edited.snp.vcf \
