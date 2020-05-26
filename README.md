@@ -28,13 +28,10 @@ Run a series of the shell scripts in the order listes :
  
 ```bash
 Sim.01.Col6909.genome.sh
-```
-```bash
 Sim.02.Make.mother.reads.sh
-```
 ...
 Sim.13.VCFCompare.sh
-
+```
  
 # Note
  
