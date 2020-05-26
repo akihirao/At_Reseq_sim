@@ -6,7 +6,7 @@ Bioinformatics pipeline for muntant simulation and validation of variant calling
 TAIR10 genomic sequences were downloaded from the TAIR FTP site. 
 
 
-# Requirement
+## Requirement
 
 * simuG: a general-purpose genome simulator (https://github.com/yjx1217/simuG)
 * sandy: a next-generation sequencing read simulator (https://galantelab.github.io/sandy)
@@ -21,7 +21,7 @@ The environments under CentOS 7.5 are tested. The versions of tools used are doc
 
 
 
-# Flowchart
+## Flowchart
  
 Install Pyxel with pip command.
  
@@ -31,7 +31,7 @@ pip install pyxel
 
 
 
-# Usage
+## Usage
 Run a series of the shell scripts in the order listes after changing paths according to your environemt:
  
 ```bash
@@ -44,6 +44,6 @@ Sim.13.VCFCompare.sh
 
 
 
-# Note
+## Note
  
 
