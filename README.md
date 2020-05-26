@@ -1,9 +1,9 @@
-# DNA muntant simulation for validating variant calloing workflow
-Bioinformatics pipeline for muntant simulation and validation of variant calling workflow in resequences of <i>Arabidopsis thaliana</i>.
+# Simulation of DNA mutation events in Arabidopsis thaliana
+Bioinformatics pipeline for muntant simulation and validation of variant calling workflow
  
  
 # Requirement
- 
+
 * simuG: a general-purpose genome simulator (https://github.com/yjx1217/simuG)
 * sandy: a next-generation sequencing read simulator (https://galantelab.github.io/sandy)
 * samtools: Tools for manipulating NGS data (https://github.com/samtools/samtools)
@@ -28,10 +28,13 @@ Run a series of the shell scripts in the order listes :
  
 ```bash
 Sim.01.Col6909.genome.sh
+```
+```bash
 Sim.02.Make.mother.reads.sh
+```
 ...
 Sim.13.VCFCompare.sh
-```
+
  
 # Note
  
