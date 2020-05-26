@@ -2,10 +2,6 @@
 Bioinformatics pipeline for muntant simulation and validation of variant calling workflow in resequences of <i>Arabidopsis thaliana</i>
  
 
-## <i>Arabidopsis thaliana</i> genomic resources
-TAIR10 genomic sequences were downloaded from the TAIR FTP site. 
-
-
 ## Requirement
 
 * simuG: a general-purpose genome simulator (https://github.com/yjx1217/simuG)
@@ -19,6 +15,9 @@ TAIR10 genomic sequences were downloaded from the TAIR FTP site.
 
 The environments under CentOS 7.5 are tested. The versions of tools used are documented in a series of shell scripts.
 
+
+## <i>Arabidopsis thaliana</i> genomic resources
+TAIR10 genomic sequences were downloaded from the TAIR FTP site. 
 
 
 ## Flowchart
