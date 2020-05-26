@@ -6,7 +6,7 @@
 
 set -exuo pipefail
 
-SCRIPT_DIR=$(cd $(dirname $0)  && pwd)
+SCRIPT_DIR=$(cd $(dirname $0) && pwd)
 
 intersection="Col_6909"
 
