@@ -13,7 +13,7 @@ Bioinformatics pipeline for mutation simulation and validation of variant callin
 * BioAlcidaeJdk: java-based version of awk for bioinformatics (http://lindenb.github.io/jvarkit/BioAlcidaeJdk.html)
 
 
-The environments under CentOS 7.5 are tested. The versions of tools used are documented in a series of shell scripts.
+The environment under CentOS 7.5 is tested. The versions of tools used are documented in a series of shell scripts.
 
 
 ## <i>Arabidopsis thaliana</i> genomic resources
