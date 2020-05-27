@@ -22,11 +22,9 @@ TAIR10 genomic sequences were downloaded from the TAIR FTP site.
 
 ## Flowchart
  
-Install Pyxel with pip command.
- 
-```bash
-pip install pyxel
-```
+<p align="left">
+  <img src="https://github.com/akihirao/At_Reseq_sim/blob/master/images/At_Reseq_sim.workflow.jpeg"/>
+</p>
 
 
 
@@ -34,11 +32,11 @@ pip install pyxel
 Run a series of the shell scripts in the order listes after changing paths according to your environemt:
  
 ```bash
-Sim.01.Col6909.genome.sh
-Sim.02.Make.mother.reads.sh
-Sim.03.Make.mutants.reads.sh
+Pipe.01.Col6909.genome.sh
+Pipe.02.Make.mother.reads.sh
+Pipe.03.Make.mutants.reads.sh
 ...
-Sim.13.VCFCompare.sh
+Pipe.12.MutationIdentification.sh
 ```
 
 
