@@ -1,5 +1,5 @@
 # <i>In Silico</i> mutation simulation of whole genome sequence in <i>Arabidopsis thaliana</i>
-Bioinformatics pipeline for mutation simulation and variant calling workflow for whole genome sequence of <i>Arabidopsis thaliana</i>
+Bioinformatics pipeline for germline mutation simulation and mutation identification from whole genome sequencing data of <i>Arabidopsis thaliana</i>
  
 
 ## Requirement
