@@ -17,7 +17,7 @@ The environments under CentOS 7.5 are tested. The versions of tools used are doc
 
 
 ## <i>Arabidopsis thaliana</i> genomic resources
-TAIR10 genomic sequences were downloaded from the TAIR FTP site. 
+TAIR10 genomic sequences were downloaded from the TAIR FTP site. The variants of Col-0 ecotype were download from the 1001 Genomes (https://1001genomes.org).
 
 
 ## Flowchart
@@ -29,7 +29,7 @@ TAIR10 genomic sequences were downloaded from the TAIR FTP site.
 
 
 ## Usage
-Run a series of the shell scripts in the order listes after changing paths according to your environemt:
+Run a series of the shell scripts in the order listed after changing paths according to your environemt:
  
 ```bash
 Pipe.01.Col6909.genome.sh
