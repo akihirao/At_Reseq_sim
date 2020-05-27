@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.03.Make.mutants.reads.sh
+#Pipe.03.Make.mutants.reads.sh
 #by HIRAO Akira
 
 set -exuo pipefail

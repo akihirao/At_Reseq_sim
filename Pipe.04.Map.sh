@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.04.Map.sh
+#Pipe.04.Map.sh
 #by HIRAO Akira
 
 set -exuo pipefail

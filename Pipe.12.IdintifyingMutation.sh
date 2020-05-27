@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.13.VCFCompare.sh
+#Pipe.12.IdintifyingMutation.sh
 #by HIRAO Akira
 
 

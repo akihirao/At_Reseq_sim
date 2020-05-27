@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.09.GenomicsDBImport_GVCF.sh
+#Pipe.08.GenomicsDBImport_GVCF.sh
 #by HIRAO Akira
 
 set -exuo pipefail

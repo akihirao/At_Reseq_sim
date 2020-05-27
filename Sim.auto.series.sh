@@ -1,16 +1,16 @@
 #!/bin/bash -i
-#Sim.auto.series.sh
+#Pipe.auto.series.sh
 #by HIRAO Akira
 
-./Sim.00.Make.mother.TAIR10.sh
-./Sim.01.Make.mutation.TAIR10.sh
-./Sim.02.Map.sh
-./Sim.03.MarkduplicatesSpark.sh
-./Sim.04.BaseRecalibrator.sh
-./Sim.05.ApplyBQSR.sh
-./Sim.06.HaplotypeCaller.sh
-./Sim.07.GenomicsDBImport_GVCF.sh
-./Sim.08.GenotypeGVCF.sh
-./Sim.09.SelectVariants.sh
-./Sim.10.VariantFiltration.sh
-./Sim.11.VCFCompare.sh
+./Pipe.01.Col6909.genome.sh
+./Pipe.02.Make.mother.TAIR10.sh
+./Pipe.03.Make.mutation.TAIR10.sh
+./Pipe.04.Map.sh
+./Pipe.05.MarkduplicatesSpark.sh
+./Pipe.06.BaseRecalibration.sh
+./Pipe.07.HaplotypeCaller.sh
+./Pipe.08.GenomicsDBImport_GVCF.sh
+./Pipe.09.GenotypeGVCF.sh
+./Pipe.10.SelectVariants.sh
+./Pipe.11.VariantFiltration.sh
+./Pipe.12.IdintifyingMutation.sh

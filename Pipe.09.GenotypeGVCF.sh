@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Sim.10.GenotypeGVCF.sh
+#Pipe.09.GenotypeGVCF.sh
 #by HIRAO Akira
 
 set -exuo pipefail
