@@ -1,5 +1,5 @@
 # <i>In Silico</i> mutation simulation of whole genome sequence in <i>Arabidopsis thaliana</i>
-Bioinformatics pipeline for germline mutation simulation and mutation identification from whole genome sequencing data of <i>Arabidopsis thaliana</i>
+Bioinformatics pipeline for germline mutation simulation and mutation identification in whole genome sequencing data of <i>Arabidopsis thaliana</i>
  
 
 ## Requirement
@@ -21,10 +21,10 @@ TAIR10 genomic sequences were downloaded from the TAIR FTP site. The variants of
 
 
 ## Initial setting
-* The number of mutation per nuclear genome: 2000 SNPs, 1000 INDELs
-* Fastq-file coverage: 50x on nuclear genome, 200x on chloroplast genome, 6000x on mitochondoria genome<sup>*1</sup>
+* The number of mutations per nuclear genome: 2000 SNPs, 1000 INDELs
+* Fastq-file coverage<sup>*</sup>: 50x on nuclear genome, 200x on chloroplast genome, 6000x on mitochondoria genome
 
-<sup>*1</sup>: The coverage values were derived from our real data.
+*: The coverage values were derived from our real data.
 
 
 ## Flowchart
