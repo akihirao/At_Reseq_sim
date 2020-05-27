@@ -13,11 +13,18 @@ Bioinformatics pipeline for germline mutation simulation and mutation identifica
 * BioAlcidaeJdk: java-based version of awk for bioinformatics (http://lindenb.github.io/jvarkit/BioAlcidaeJdk.html)
 
 
-The environment under CentOS 7.5 is tested. The versions of tools used are documented in a series of shell scripts.
+The environment under CentOS 7.5 is tested. The versions of the tools used are documented in a series of shell scripts listed.
 
 
 ## <i>Arabidopsis thaliana</i> genomic resources
 TAIR10 genomic sequences were downloaded from the TAIR FTP site. The variants of Col-0 ecotype were download from the 1001 Genomes (https://1001genomes.org).
+
+
+## Initial setting
+* The number of mutation per nuclear genome: 2000 SNPs, 1000 INDELs
+* Fastq-file coverage: 50x on nuclear genome, 200x on chloroplast genome, 6000x on mitochondoria genome<sup>*1</sup>
+
+<sup>*1</sup>: The coverage values were derived from our real data.
 
 
 ## Flowchart
