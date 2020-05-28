@@ -31,7 +31,7 @@ TAIR10 genomic sequences were downloaded from the TAIR FTP site. The variants of
 ## Flowchart
  
 <p align="left">
-  <img src="https://github.com/akihirao/At_Reseq_sim/blob/master/images/At_Reseq_sim.workflow.jpeg" width="70%" height="70%"/>
+  <img src="https://github.com/akihirao/At_Reseq_sim/blob/master/images/At_Reseq_sim.workflow.jpeg" width="75%" height="75%"/>
 </p>
 
 
