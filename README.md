@@ -9,7 +9,7 @@ Bioinformatics pipeline for germline mutation simulation and mutation identifica
 * samtools: Tools for manipulating NGS data (https://github.com/samtools/samtools)
 * vcftools: A set of tools for working with VCF files (https://github.com/vcftools/vcftools)
 * BWA: Burrow-Wheeler Aligner (http://bio-bwa.sourceforge.net) 
-* gatk: Genome Analysis Toolkit (https://gatk.broadinstitute.org/)
+* GATK: Genome Analysis Toolkit (https://gatk.broadinstitute.org/)
 * BioAlcidaeJdk: java-based version of awk for bioinformatics (http://lindenb.github.io/jvarkit/BioAlcidaeJdk.html)
 
 
