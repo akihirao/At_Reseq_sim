@@ -40,7 +40,7 @@ TAIR10 genomic sequences were downloaded from the TAIR FTP site. The variants of
 Run a series of the shell scripts in the order listed after changing paths according to your environemt:
  
 ```bash
-Pipe.01.Col6909.genome.sh
+Pipe.01.Mather.genome.sh
 Pipe.02.Make.mother.reads.sh
 Pipe.03.Make.mutants.reads.sh
 ...

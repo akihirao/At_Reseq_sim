@@ -1,5 +1,5 @@
 #!/bin/bash -i
-#Pipe.01.mather.genome.sh
+#Pipe.01.Mather.genome.sh
 #by HIRAO Akira		
 
 set -exuo pipefail
