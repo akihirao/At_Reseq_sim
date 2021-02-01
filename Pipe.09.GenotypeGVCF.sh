@@ -28,19 +28,16 @@ output_folder=$main_folder/vcf_out
 mkdir -p $output_folder
 
 
-#Genotype from GVCF
-for i in `seq 1 3`; do
 
-	target_ID="AT_simu"
-	genomicsDB_folder=genomicsDB.$target_ID.$i
-	DB_folder=$main_folder/$genomicsDB_folder
+target_ID="AT_simu"
+genomicsDB_folder=genomicsDB.$target_ID
+DB_folder=$main_folder/$genomicsDB_folder
 
-	gatk GenotypeGVCFs \
-	-R $reference_folder/TAIR10.fa \
-	-V gendb://$DB_folder \
-	-O $output_folder/AT.simu.$i.raw.vcf.gz
+gatk GenotypeGVCFs \
+-R $reference_folder/TAIR10.fa \
+-V gendb://$DB_folder \
+-O $output_folder/AT.simu.raw.vcf.gz
 
-done
 
 
 cd $SCRIPT_DIR

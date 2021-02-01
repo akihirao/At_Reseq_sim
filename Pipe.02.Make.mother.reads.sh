@@ -34,10 +34,14 @@ SD_fragment_size=120
 
 module load vcftools/0.1.15
 
+mother_ID[0]="AT.00"
+mother_ID[1]="AT.01"
+mother_ID[2]="AT.02"
+mother_ID[3]="AT.03"
 
 for i in $(seq 1 3) #roop for serial number 1-3
 do
-
+	target_mother=${mother_ID[i]}
 	#no_label=`printf %02d ${i}`
 	output_folder_name_head="mother_"
 	output_folder_name=$output_folder_name_head$i
@@ -62,12 +66,12 @@ do
 	#making simulated reads for nDNA haploid 1
 	sandy genome -v -t paired-end -j $CPU \
 	-M $fragment_size -D $SD_fragment_size \
-	-c $half_coverage --quality-profile=hiseq_150 $reference_folder/Col_6909.simseq.genome.fa -p mutant.$i.haploid_1 > sim_1.$i.log
+	-c $half_coverage --quality-profile=hiseq_150 $reference_folder/$target_mother.simseq.genome.fa -p mutant.$i.haploid_1 > sim_1.$i.log
 
 	#making simulated reads for nDNA haploid 2
 	sandy genome -v -t paired-end -j $CPU \
 	-M $fragment_size -D $SD_fragment_size \
-	-c $half_coverage --quality-profile=hiseq_150 $reference_folder/Col_6909.simseq.genome.fa -p mutant.$i.haploid_2 > sim_2.$i.log
+	-c $half_coverage --quality-profile=hiseq_150 $reference_folder/$target_mother.simseq.genome.fa -p mutant.$i.haploid_2 > sim_2.$i.log
 
 	#making simulated reads for mitochondria
 	sandy genome -v -t paired-end -j $CPU \

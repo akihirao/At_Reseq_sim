@@ -4,31 +4,18 @@
 #by HIRAO Akira
 
 
-if (@ARGV < 1){
-	die "USAG: perl VCF_dividing.pl input.vcf/n";
-}
 
-$input = shift @ARGV;
-
-open (INFILE, $input);
-
-open (FILE1, ">haploid1.mutant.SNP_INDEL.vcf");
-open (FILE2, ">haploid2.mutant.SNP_INDEL.vcf");
-
-while ($line = <INFILE>) {
+while ($line = <>) {
 	chomp $line;
 	if($line =~m/^#/){
-		print FILE1 "$line\n";
-		print FILE2 "$line\n";
+		print "$line\n";
 	}else{
-		$x = rand();
-		if($x < 0.5){
-			print FILE1 "$line\n";
-		}else{
-			print FILE2 "$line\n";
+		$rand_prob = rand();
+
+		if($rand_prob >= 0.5){
+			print "$line\n";
 		}
+
 	}
 } 
 
-close (FILE1);
-close (FILE2);
