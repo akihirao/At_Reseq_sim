@@ -22,7 +22,7 @@ TAIR10 genomic sequences were downloaded from the TAIR FTP site. The variants of
 
 ## Initial setting
 * The number of mutations per nuclear genome: 2000 SNPs, 1000 INDELs
-* Read coverage: 50x on nuclear genome, 200x on chloroplast genome, 6000x on mitochondoria genome (the values were derived from our real data)
+* Read coverage: 50x on nuclear genome (the value was derived from our real data)
 * A single simulation procedure generates WGS data of a mather and three self-fertilized offspring with mutations.
 * A total of three families (e.g. three mathers and their nine offspring) are jointly handled for variant calling.
 
