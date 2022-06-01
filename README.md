@@ -49,7 +49,6 @@ Pipe.12.MutationIdentification.sh
 
 
 
-## Note
- 
-This project is currently under development.
-Thank you!
+## Reference
+
+Hirao AS, Watanabe Y, Hasegawa Y, Takagi T, Ueno S, Kaneko S (2022) Mutational effects of chronic gamma radiation throughout the life cycle of Arabidopsis thaliana: insight into radiosensitivity in the reproductive stage. Science of the Total Environment. https://doi.org/10.1016/j.scitotenv.2022.156224
